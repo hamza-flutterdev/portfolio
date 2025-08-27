@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza - Flutter Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <style>
+        img {
+            height: 200px !important;
+            border-radius: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <nav class="bg-blue-600 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold flex items-center">
+                <i class="fab fa-flutter mr-2"></i>
+                Hamza
+            </a>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-blue-200 transition flex items-center"><i
+                            class="fas fa-home mr-1"></i> Home</a></li>
+                <li><a href="#about" class="hover:text-blue-200 transition flex items-center"><i
+                            class="fas fa-user mr-1"></i> About</a></li>
+                <li><a href="#projects" class="hover:text-blue-200 transition flex items-center"><i
+                            class="fas fa-code mr-1"></i> Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-200 transition flex items-center"><i
+                            class="fas fa-envelope mr-1"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="gradient-bg text-white py-20">
+        <div class="container mx-auto text-center">
+            <div class="float">
+                <i class="fab fa-flutter text-6xl mb-4"></i>
+            </div>
+            <h1 class="text-5xl font-bold mb-4" data-aos="fade-up">Hi, I'm Hamza! 👋</h1>
+            <p class="text-2xl mb-4" data-aos="fade-up" data-aos-delay="200">Flutter Developer</p>
+            <p class="text-lg mb-6 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="400">
+                Passionate about building sleek, scalable, and user-friendly mobile apps. I specialise in cross-platform
+                app development with clean architecture, modern UI/UX, and state management.
+            </p>
+            <a href="#contact"
+                class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-100 transition inline-flex items-center"
+                data-aos="fade-up" data-aos-delay="600">
+                <i class="fas fa-paper-plane mr-2"></i> Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-12">
+        <section id="about" class="mb-16">
+            <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
+                <i class="fas fa-user-circle mr-2"></i> About Me
+            </h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    I'm a <strong>Flutter Developer</strong> passionate about building sleek, scalable, and
+                    user-friendly mobile apps. I specialise in cross-platform app development with <strong>clean
+                        architecture</strong>, <strong>modern UI/UX</strong>, and <strong>state management (GetX &
+                        Provider)</strong>.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Currently, I'm focused on creating production-ready apps with advanced features like <strong>AI
+                        integration, Firebase, monetisation, and native platform channels</strong>.
+                </p>
+            </div>
+        </section>
+
+        <section id="tech-stack" class="mb-16">
+            <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
+                <i class="fas fa-tools mr-2"></i> Tech Stack
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="flip-left">
+                    <i class="fas fa-code text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Languages</h3>
+                    <ul class="text-gray-700">
+                        <li>Dart</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="flip-left" data-aos-delay="100">
+                    <i class="fab fa-flutter text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Framework</h3>
+                    <ul class="text-gray-700">
+                        <li>Flutter</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="flip-left" data-aos-delay="200">
+                    <i class="fas fa-cogs text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">State Management</h3>
+                    <ul class="text-gray-700">
+                        <li>GetX</li>
+                        <li>Provider</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center" data-aos="flip-left" data-aos-delay="300">
+                    <i class="fas fa-database text-3xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Databases</h3>
+                    <ul class="text-gray-700">
+                        <li>SQLite</li>
+                        <li>SharedPreferences</li>
+                        <li>Flutter Secure Storage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-16">
+            <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
+                <i class="fas fa-rocket mr-2"></i> Featured Projects
+            </h2>
+
+            <!-- GK Quiz App -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-brain text-3xl text-purple-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">🎯 GK Quiz App</h3>
+                </div>
+                <p class="text-gray-700 mb-4">A 22-screen educational app combining learning with interactive features
+                    and monetisation.</p>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Features:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Multi-format quizzes</li>
+                        <li>AI-powered assistance (Google Gemini)</li>
+                        <li>Speech recognition</li>
+                        <li>Visual progress tracking</li>
+                        <li>Ads integration</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Dart</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Google Mobile Ads</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learn English App -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-language text-3xl text-green-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">📘 Learn English App</h3>
+                </div>
+                <p class="text-gray-700 mb-4">A language learning app tailored for Urdu speakers, improving vocabulary,
+                    grammar, and pronunciation.</p>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Features:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Vocabulary/grammar modules</li>
+                        <li>AI dictionary</li>
+                        <li>Text-to-speech</li>
+                        <li>Offline access with sqflite</li>
+                    </ul>
+                </div>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Dart</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Google TTS</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather Apps Series -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-cloud-sun text-3xl text-blue-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">☁️ Weather Apps Series</h3>
+                </div>
+                <p class="text-gray-700 mb-4">Built multiple region-specific weather apps with iterative improvements in
+                    performance, design, and monetisation.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-bold text-lg mb-2">🌍 Estonia Weather</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>Native Android home screen widget</li>
+                            <li>Hourly/7-day forecasts</li>
+                            <li>Geolocation, dark mode</li>
+                            <li>Shimmer loaders & animated UI</li>
+                        </ul>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-bold text-lg mb-2">🇹🇴 Tonga Weather</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>Dynamic animated backgrounds</li>
+                            <li>Push notifications with OneSignal</li>
+                            <li>Firebase Remote Config</li>
+                            <li>Ads integration</li>
+                        </ul>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-bold text-lg mb-2">🇭🇳 Honduras Weather</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>Native Ads, Maps integration</li>
+                            <li>Batch weather loading</li>
+                            <li>Firebase Analytics & Crashlytics</li>
+                        </ul>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <h4 class="font-bold text-lg mb-2">🇲🇹 Malta Weather</h4>
+                        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                            <li>Minimalist gradient UI</li>
+                            <li>Optimised performance</li>
+                            <li>Smooth transitions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">REST APIs</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">OneSignal</span>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Platform Channels</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-shopping-cart text-2xl text-orange-500 mr-3"></i>
+                        <h3 class="text-xl font-bold">🛒 MagiKart Grocery App</h3>
+                    </div>
+                    <p class="text-gray-700 mb-3">Feature-rich shopping cart app with user authentication and real-time
+                        cart management.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Flutter</span>
+                        <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Provider</span>
+                        <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">SQLite</span>
+                    </div>
+                    <a href="https://github.com/hamza-flutterdev/magikart-grocery-app" target="_blank"
+                        class="inline-block mt-3 text-blue-500 hover:text-blue-600">
+                        <i class="fab fa-github mr-1"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-whatsapp text-2xl text-green-500 mr-3"></i>
+                        <h3 class="text-xl font-bold">💬 WhatsApp UI Clone</h3>
+                    </div>
+                    <p class="text-gray-700 mb-3">Pixel-perfect UI clone of WhatsApp with persistent dark/light themes.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Flutter</span>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Material Design</span>
+                    </div>
+                    <a href="https://github.com/hamza-flutterdev/WhatsApp-Clone" target="_blank"
+                        class="inline-block mt-3 text-blue-500 hover:text-blue-600">
+                        <i class="fab fa-github mr-1"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-12">
+            <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
+                <i class="fas fa-envelope-open-text mr-2"></i> Get in Touch
+            </h2>
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-center space-y-6">
+                    <div class="flex justify-center space-x-8">
+                        <a href="mailto:hamzabutthb553.hb@gmail.com"
+                            class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
+                            data-aos="zoom-in">
+                            <i class="fas fa-envelope text-4xl"></i>
+                            <p class="mt-2 text-sm">Email</p>
+                        </a>
+                        <a href="https://linkedin.com/in/hamza-flutterdev" target="_blank"
+                            class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
+                            data-aos="zoom-in" data-aos-delay="200">
+                            <i class="fab fa-linkedin text-4xl"></i>
+                            <p class="mt-2 text-sm">LinkedIn</p>
+                        </a>
+                        <a href="https://github.com/hamza-flutterdev" target="_blank"
+                            class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
+                            data-aos="zoom-in" data-aos-delay="400">
+                            <i class="fab fa-github text-4xl"></i>
+                            <p class="mt-2 text-sm">GitHub</p>
+                        </a>
+                    </div>
+                    <div class="pt-4">
+                        <p class="text-gray-700 text-lg">Let's build something amazing together!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Hamza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
