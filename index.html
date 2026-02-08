@@ -4,23 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamza Shahid - Flutter Developer</title>
+    <title>Hamza Shahid - Flutter Developer Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <style>
         @keyframes float {
-            0% {
+
+            0%,
+            100% {
                 transform: translateY(0px);
             }
 
             50% {
                 transform: translateY(-10px);
-            }
-
-            100% {
-                transform: translateY(0px);
             }
         }
 
@@ -52,6 +50,7 @@
 </head>
 
 <body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
     <nav class="bg-blue-600 text-white p-4 sticky top-0 z-50 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
             <a href="#" class="text-2xl font-bold flex items-center">
@@ -73,6 +72,7 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <header id="home" class="gradient-bg text-white py-20">
         <div class="container mx-auto text-center">
             <div class="float">
@@ -82,9 +82,9 @@
             <p class="text-2xl mb-4" data-aos="fade-up" data-aos-delay="200">Junior Flutter Developer @ Teramob
                 Technologies</p>
             <p class="text-lg mb-6 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="400">
-                Building responsive, user-centered mobile apps with clean architecture, solid performance, and engaging
-                design. From concept to deployment, I craft offline-first experiences with AI integration, native
-                platform features, and intuitive UI.
+                Crafting production-ready mobile apps with clean architecture, offline-first design, and AI integration.
+                I build scalable, maintainable solutions that combine smooth UX with robust engineering—from concept to
+                deployment, including native platform features, Firebase services, and full monetization.
             </p>
             <div class="flex justify-center space-x-4" data-aos="fade-up" data-aos-delay="600">
                 <a href="#contact"
@@ -100,30 +100,39 @@
     </header>
 
     <main class="container mx-auto py-12 px-4">
+        <!-- About Section -->
         <section id="about" class="mb-16">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-user-circle mr-2"></i> About Me
             </h2>
             <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    I'm a <strong>Junior Flutter Developer</strong> at Teramob Technologies, where I build
-                    production-ready mobile apps that combine clean architecture, solid performance, and engaging
-                    design. I started as an intern and was promoted after delivering multiple successful applications.
+                    I'm a <strong>Junior Flutter Developer</strong> at Teramob Technologies with about <strong>1 year of
+                        practical experience</strong>
+                    building production-ready mobile apps. I started as an intern and was promoted after successfully
+                    delivering multiple applications
+                    from concept to deployment.
                 </p>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
                     My expertise includes designing <strong>scalable databases</strong>, building <strong>offline-first
-                        experiences</strong>, integrating <strong>AI features</strong>, implementing <strong>native
-                        platform channels</strong>, and crafting UI that feels smooth and intuitive. I've also published
-                    my first Flutter package, focusing on reusable and developer-friendly code.
+                        experiences</strong>,
+                    integrating <strong>AI features</strong> (OpenAI, Google Gemini), implementing <strong>native
+                        platform channels</strong> with Kotlin,
+                    and crafting smooth, intuitive UIs. I've also published my first <strong>Flutter package</strong> on
+                    pub.dev, focusing on reusable
+                    and developer-friendly code.
                 </p>
                 <p class="text-lg text-gray-700 leading-relaxed">
                     I care deeply about <strong>code quality</strong>, <strong>maintainability</strong>, and
-                    <strong>user experience</strong> — but what excites me most is seeing users enjoy the products I
-                    help build.
+                    <strong>user experience</strong>—but
+                    what excites me most is seeing users enjoy the products I help build. I collaborate closely with
+                    cross-functional teams and own
+                    features end-to-end, from data modeling to API integration.
                 </p>
             </div>
         </section>
 
+        <!-- Technical Skills Section -->
         <section id="tech-stack" class="mb-16">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-tools mr-2"></i> Technical Skills
@@ -142,7 +151,6 @@
                         <span class="skill-badge bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C++</span>
                     </div>
                 </div>
-
                 <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="100">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-cogs text-3xl text-purple-500 mr-3"></i>
@@ -157,15 +165,12 @@
                             class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Provider</span>
                         <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Clean
                             Architecture</span>
-                        <span class="skill-badge bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">REST
-                            APIs</span>
                     </div>
                 </div>
-
                 <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="200">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-paint-brush text-3xl text-green-500 mr-3"></i>
-                        <h3 class="text-xl font-bold">Frontend</h3>
+                        <h3 class="text-xl font-bold">UI/UX</h3>
                     </div>
                     <div class="flex flex-wrap gap-2">
                         <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Material
@@ -174,11 +179,10 @@
                             Design</span>
                         <span
                             class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Lottie</span>
-                        <span class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Custom
-                            Widgets</span>
+                        <span
+                            class="skill-badge bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Shimmer</span>
                     </div>
                 </div>
-
                 <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="300">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-database text-3xl text-orange-500 mr-3"></i>
@@ -189,14 +193,28 @@
                             class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Firebase</span>
                         <span
                             class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                        <span class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">REST
+                            APIs</span>
                         <span
-                            class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">SharedPreferences</span>
-                        <span class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">Secure
-                            Storage</span>
+                            class="skill-badge bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">JSON</span>
                     </div>
                 </div>
-
                 <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="400">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-robot text-3xl text-pink-500 mr-3"></i>
+                        <h3 class="text-xl font-bold">AI Integration</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-badge bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">OpenAI</span>
+                        <span class="skill-badge bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">Google
+                            Gemini</span>
+                        <span
+                            class="skill-badge bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">Speech-to-Text</span>
+                        <span
+                            class="skill-badge bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm">Text-to-Speech</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="500">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-dollar-sign text-3xl text-red-500 mr-3"></i>
                         <h3 class="text-xl font-bold">Monetization</h3>
@@ -210,28 +228,10 @@
                             class="skill-badge bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">OneSignal</span>
                     </div>
                 </div>
-
-                <div class="bg-white p-6 rounded-lg shadow-md" data-aos="flip-left" data-aos-delay="500">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-wrench text-3xl text-indigo-500 mr-3"></i>
-                        <h3 class="text-xl font-bold">Tools</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Android
-                            Studio</span>
-                        <span class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">VS
-                            Code</span>
-                        <span
-                            class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Git/GitHub</span>
-                        <span
-                            class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Postman</span>
-                        <span
-                            class="skill-badge bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Figma</span>
-                    </div>
-                </div>
             </div>
         </section>
 
+        <!-- Professional Experience Section -->
         <section id="experience" class="mb-16">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-briefcase mr-2"></i> Professional Experience
@@ -246,21 +246,25 @@
                         </div>
                         <div class="text-right">
                             <p class="text-gray-600 font-semibold">Aug 2025 - Present</p>
+                            <p class="text-sm text-gray-500">7 months</p>
                         </div>
                     </div>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Promoted after successful internship for delivering multiple production-ready apps</li>
-                        <li>Led development of <strong>Learn Japanese Speaking</strong>: designed structured SQLite
-                            databases, integrated AI dictionary, STT/TTS, quizzes, progress tracking, and full
-                            monetization</li>
-                        <li>Refactored and redesigned <strong>Noorani Qaida</strong> app for improved performance and
+                        <li>Delivering production-ready mobile apps from concept to deployment</li>
+                        <li>Built <strong>Math Equation</strong>: AI-powered math solver with camera input, OpenAI
+                            integration, offline formula library</li>
+                        <li>Built <strong>World Explorer</strong>: Real-time Earth explorer with WebSocket earthquake
+                            tracking, Google Maps, weather integration</li>
+                        <li>Built <strong>Chat Sticker</strong>: WhatsApp sticker maker with AI generation, image
+                            editing, compression, full monetization</li>
+                        <li>Built <strong>Learn Japanese Speaking</strong>: Comprehensive language app with SQLite
+                            databases, AI dictionary, STT/TTS, quizzes</li>
+                        <li>Published <strong>Flutter Multilingual Keyboard</strong> package on pub.dev</li>
+                        <li>Refactored and modernized existing apps (e.g., Noorani Qaida) for improved performance and
                             maintainability</li>
-                        <li>Built and published <strong>Flutter Multilingual Keyboard</strong> package on pub.dev</li>
-                        <li>Enhanced existing apps with new features, bug fixes, and performance optimizations</li>
                         <li>Collaborated on architecture decisions, code reviews, and feature planning</li>
                     </ul>
                 </div>
-
                 <div class="bg-white rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="flex justify-between items-start mb-4">
                         <div>
@@ -270,235 +274,285 @@
                         </div>
                         <div class="text-right">
                             <p class="text-gray-600 font-semibold">May 2025 - Aug 2025</p>
+                            <p class="text-sm text-gray-500">4 months</p>
                         </div>
                     </div>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
                         <li>Developed 6 production-ready apps from concept to deployment</li>
-                        <li>Built GK Quiz app with AI integration, speech recognition, and progress tracking</li>
-                        <li>Created Learn English app with vocabulary modules, AI dictionary, and TTS</li>
-                        <li>Developed weather apps series (Estonia, Tonga, Honduras, Malta) with native widgets,
-                            Firebase, and monetization</li>
-                        <li>Implemented GetX state management, SQLite databases, and platform channels</li>
+                        <li>Built <strong>GK Quiz</strong>: 22-screen app with AI integration, speech recognition,
+                            progress tracking, ad monetization</li>
+                        <li>Built <strong>Learn English</strong>: Language learning app with AI dictionary, TTS,
+                            vocabulary/grammar modules</li>
+                        <li>Built <strong>Weather Apps Series</strong> (Estonia, Tonga, Honduras, Malta) with native
+                            widgets, Firebase, monetization</li>
+                        <li>Implemented GetX state management, SQLite databases, and Kotlin platform channels</li>
+                        <li>Promoted to Junior Developer after successful internship</li>
                     </ul>
                 </div>
             </div>
         </section>
 
+        <!-- Projects Section -->
         <section id="projects" class="mb-16">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-rocket mr-2"></i> Featured Projects
             </h2>
 
-            <!-- Learn Japanese Speaking -->
+            <!-- Math Equation -->
             <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-calculator text-3xl text-indigo-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">📐 Math Equation Solver</h3>
+                </div>
+                <p class="text-gray-700 mb-4">AI-powered mobile math solver with camera and manual input that generates
+                    clear, step-by-step solutions.</p>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Features:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>📷 Camera input for equation recognition</li>
+                        <li>🤖 OpenAI integration for step-by-step solution generation</li>
+                        <li>💾 Local saving and offline formula library</li>
+                        <li>🔥 Firebase Analytics & Remote Config</li>
+                        <li>📊 Solution history tracking</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">OpenAI API</span>
+                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                </div>
+            </div>
+
+            <!-- World Explorer -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-globe-americas text-3xl text-cyan-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">🌍 World Explorer</h3>
+                </div>
+                <p class="text-gray-700 mb-4">Real-time interactive Earth explorer with maps, earthquake tracking, and
+                    location insights.</p>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Features:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>🗺️ Interactive Google Maps with country insights and nearby amenities</li>
+                        <li>⚡ WebSocket-based real-time earthquake alerts</li>
+                        <li>🌤️ Live weather integration and compass features</li>
+                        <li>🚦 Traffic-enabled navigation</li>
+                        <li>🌙 Dark mode support</li>
+                        <li>🔥 Firebase (Remote Config, Analytics, Crashlytics)</li>
+                        <li>💰 Full monetization (Ads + In-App Purchases)</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">WebSockets</span>
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">Google Maps API</span>
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                    <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm">OneSignal</span>
+                </div>
+            </div>
+
+            <!-- Chat Sticker -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-smile text-3xl text-yellow-500 mr-4"></i>
+                    <h3 class="text-2xl font-bold">🎨 Chat Sticker - WhatsApp Sticker Maker</h3>
+                </div>
+                <p class="text-gray-700 mb-4">Complete sticker creation app with built-in, AI-generated, and custom
+                    gallery stickers.</p>
+                <div class="mb-4">
+                    <h4 class="font-bold text-lg mb-2">Features:</h4>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>🎨 Built-in sticker library with curated collections</li>
+                        <li>🤖 AI-generated stickers for unique creations</li>
+                        <li>📸 Custom stickers from gallery photos</li>
+                        <li>✂️ Advanced image editing and compression</li>
+                        <li>📤 One-tap export to WhatsApp</li>
+                        <li>🎭 Animated responsive UI (Riverpod, Lottie, Shimmer)</li>
+                        <li>💰 Full monetization (Ads + In-App Purchases)</li>
+                        <li>🔥 Firebase Remote Config for ad control</li>
+                    </ul>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Riverpod</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Image Processing</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                    <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Lottie</span>
+                </div>
+            </div>
+
+            <!-- Learn Japanese Speaking -->
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="flex items-center mb-4">
                     <i class="fas fa-language text-3xl text-red-500 mr-4"></i>
                     <h3 class="text-2xl font-bold">🇯🇵 Learn Japanese Speaking</h3>
                 </div>
-                <p class="text-gray-700 mb-4">Ultimate language learning app covering Hiragana, Katakana, Kanji, and
-                    JLPT preparation with comprehensive offline support.</p>
+                <p class="text-gray-700 mb-4">Comprehensive language learning app for Hiragana, Katakana, Kanji, and
+                    JLPT preparation.</p>
                 <div class="mb-4">
                     <h4 class="font-bold text-lg mb-2">Features:</h4>
                     <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Multiple structured SQLite databases with JSON files for robust offline support</li>
-                        <li>AI-powered dictionary and translation features</li>
-                        <li>Speech-to-text (STT) and text-to-speech (TTS) integration</li>
-                        <li>Interactive quizzes and progress tracking with analytics</li>
-                        <li>Themed lessons and step progress indicators</li>
-                        <li>Dark mode with Lottie and Shimmer animations</li>
-                        <li>Full monetization with Google Mobile Ads and In-App Purchases</li>
-                        <li>Firebase integration (Analytics, Crashlytics, Remote Config)</li>
+                        <li>📚 Multiple structured SQLite databases with JSON for robust offline support</li>
+                        <li>🤖 AI-powered dictionary and translation features</li>
+                        <li>🗣️ Speech-to-text (STT) and text-to-speech (TTS) integration</li>
+                        <li>📝 Interactive quizzes with progress tracking and analytics</li>
+                        <li>🎯 Themed lessons with step progress indicators</li>
+                        <li>🌙 Dark mode with Lottie and Shimmer animations</li>
+                        <li>💰 Full monetization (Google Mobile Ads + In-App Purchases)</li>
+                        <li>🔥 Firebase (Analytics, Crashlytics, Remote Config)</li>
+                        <li>🔔 OneSignal push notifications</li>
                     </ul>
                 </div>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Flutter</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Dart</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">SQLite</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">JSON</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">AI Integration</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Firebase</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Google Mobile Ads</span>
-                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">OneSignal</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Noorani Qaida -->
-            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="flex items-center mb-4">
-                    <i class="fas fa-book-quran text-3xl text-teal-500 mr-4"></i>
-                    <h3 class="text-2xl font-bold">📖 Noorani Qaida (Published App Update)</h3>
-                </div>
-                <p class="text-gray-700 mb-4">Maintained and redesigned an existing Play Store app to improve
-                    performance, maintainability, and user experience.</p>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Achievements:</h4>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Refactored codebase by replacing hardcoded lists with structured JSON datasets</li>
-                        <li>Modularized data access for better maintainability</li>
-                        <li>Modernized UI/UX with improved navigation and responsiveness</li>
-                        <li>Applied clean architecture principles and best practices</li>
-                    </ul>
-                </div>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Flutter</span>
-                        <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Dart</span>
-                        <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">JSON</span>
-                        <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Clean Architecture</span>
-                    </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">AI APIs</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">STT/TTS</span>
+                    <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Firebase</span>
                 </div>
             </div>
 
             <!-- GK Quiz -->
-            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="400">
                 <div class="flex items-center mb-4">
                     <i class="fas fa-brain text-3xl text-purple-500 mr-4"></i>
                     <h3 class="text-2xl font-bold">🎯 GK Quiz App</h3>
                 </div>
-                <p class="text-gray-700 mb-4">A 22-screen educational quiz app combining learning with interactive
-                    features and monetization.</p>
+                <p class="text-gray-700 mb-4">22-screen educational quiz app combining learning with AI assistance and
+                    monetization.</p>
                 <div class="mb-4">
                     <h4 class="font-bold text-lg mb-2">Features:</h4>
                     <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Multi-format quizzes with progress analytics and charts</li>
-                        <li>AI-powered assistance (Google Gemini integration)</li>
-                        <li>Speech-to-text functionality</li>
-                        <li>Visual progress tracking</li>
-                        <li>Google Mobile Ads integration</li>
+                        <li>🤖 AI-powered assistance with Google Gemini integration</li>
+                        <li>🗣️ Speech-to-text functionality for accessibility</li>
+                        <li>📊 Visual progress tracking with analytics and charts</li>
+                        <li>🎮 Multi-format quiz modes</li>
+                        <li>💰 Google Mobile Ads integration</li>
+                        <li>🗄️ Local database for offline support</li>
                     </ul>
                 </div>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Flutter</span>
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">GetX</span>
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">SQLite</span>
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Firebase</span>
-                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Google AI</span>
-                    </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Google Gemini</span>
+                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Firebase</span>
                 </div>
             </div>
 
             <!-- Learn English -->
-            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="500">
                 <div class="flex items-center mb-4">
-                    <i class="fas fa-language text-3xl text-green-500 mr-4"></i>
+                    <i class="fas fa-book-open text-3xl text-green-500 mr-4"></i>
                     <h3 class="text-2xl font-bold">📘 Learn English App</h3>
                 </div>
-                <p class="text-gray-700 mb-4">Language learning app tailored for Urdu-speaking users, improving
-                    vocabulary, grammar, and pronunciation.</p>
+                <p class="text-gray-700 mb-4">Language learning app for Urdu-speaking users with comprehensive
+                    vocabulary and grammar modules.</p>
                 <div class="mb-4">
                     <h4 class="font-bold text-lg mb-2">Features:</h4>
                     <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Vocabulary and grammar modules</li>
-                        <li>AI dictionary integration</li>
-                        <li>Text-to-speech functionality</li>
-                        <li>Offline access with SQLite</li>
-                        <li>Animated UI for enhanced learning</li>
+                        <li>📖 Structured vocabulary and grammar lessons</li>
+                        <li>🤖 AI-powered dictionary integration</li>
+                        <li>🗣️ Text-to-speech for pronunciation practice</li>
+                        <li>💾 Offline access with SQLite storage</li>
+                        <li>🎨 Custom animations for enhanced learning experience</li>
                     </ul>
                 </div>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Flutter</span>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">GetX</span>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">SQLite</span>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Google TTS</span>
-                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Firebase</span>
-                    </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">SQLite</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Google TTS</span>
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Firebase</span>
                 </div>
             </div>
 
             <!-- Weather Apps Series -->
-            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="bg-white rounded-lg shadow-lg p-8 mb-8 project-card" data-aos="fade-up" data-aos-delay="600">
                 <div class="flex items-center mb-4">
                     <i class="fas fa-cloud-sun text-3xl text-blue-500 mr-4"></i>
                     <h3 class="text-2xl font-bold">☁️ Weather Apps Series</h3>
                 </div>
-                <p class="text-gray-700 mb-4">Developed multiple region-specific weather apps with iterative
-                    improvements in architecture, UI, and monetization.</p>
+                <p class="text-gray-700 mb-4">Developed 4 region-specific weather apps with iterative improvements in
+                    architecture, UI, and monetization.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                     <div class="border rounded-lg p-4">
                         <h4 class="font-bold text-lg mb-2">🇪🇪 Estonia Weather</h4>
                         <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                            <li>Native Android home screen widget</li>
-                            <li>Hourly/7-day forecasts</li>
-                            <li>Geolocation and dark mode</li>
-                            <li>Shimmer loaders & animated UI</li>
+                            <li>Native Android home screen widget (Kotlin platform channels)</li>
+                            <li>Hourly and 7-day weather forecasts</li>
+                            <li>Geolocation and dark mode support</li>
+                            <li>Shimmer loaders & weather-reactive animated UI</li>
                         </ul>
                     </div>
                     <div class="border rounded-lg p-4">
                         <h4 class="font-bold text-lg mb-2">🇹🇴 Tonga Weather</h4>
                         <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                            <li>Dynamic animated backgrounds</li>
-                            <li>Push notifications (OneSignal)</li>
-                            <li>Firebase Remote Config</li>
-                            <li>Ads integration</li>
+                            <li>Dynamic animated backgrounds based on weather conditions</li>
+                            <li>Push notifications with OneSignal</li>
+                            <li>Firebase Remote Config for feature flags</li>
+                            <li>Google Mobile Ads integration</li>
                         </ul>
                     </div>
                     <div class="border rounded-lg p-4">
                         <h4 class="font-bold text-lg mb-2">🇭🇳 Honduras Weather</h4>
                         <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                            <li>Native Ads & Maps integration</li>
-                            <li>Batch weather loading</li>
+                            <li>Native Ads and Maps integration with city imagery</li>
+                            <li>Batch weather loading for improved performance</li>
                             <li>Firebase Analytics & Crashlytics</li>
+                            <li>Enhanced user engagement features</li>
                         </ul>
                     </div>
                     <div class="border rounded-lg p-4">
                         <h4 class="font-bold text-lg mb-2">🇲🇹 Malta Weather</h4>
                         <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                            <li>Minimalist gradient UI</li>
-                            <li>Performance optimized</li>
-                            <li>Smooth transitions</li>
+                            <li>Minimalist gradient-based UI design</li>
+                            <li>Performance optimized with smooth transitions</li>
+                            <li>Comprehensive weather data display</li>
+                            <li>Modern responsive layouts</li>
                         </ul>
                     </div>
                 </div>
-                <div class="mb-4">
-                    <h4 class="font-bold text-lg mb-2">Tech Stack:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Flutter</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">GetX</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Kotlin</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">REST APIs</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Firebase</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">OneSignal</span>
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Platform Channels</span>
-                    </div>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Flutter</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">GetX</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Kotlin</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">REST APIs</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Firebase</span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Platform Channels</span>
                 </div>
             </div>
 
-            <!-- Personal Projects -->
-            <h3 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">Personal Projects</h3>
+            <!-- Personal Projects Section -->
+            <h3 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">Personal Learning Projects</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="700">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-shopping-cart text-2xl text-orange-500 mr-3"></i>
                         <h3 class="text-xl font-bold">🛒 MagiKart Grocery App</h3>
                     </div>
-                    <p class="text-gray-700 mb-3">Feature-rich grocery shopping app with user authentication and cart
-                        management.</p>
+                    <p class="text-gray-700 mb-3">E-commerce simulation with user authentication and cart management
+                        using clean architecture.</p>
                     <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-3">
                         <li>User authentication system</li>
                         <li>Product browsing and search</li>
-                        <li>Shopping cart functionality</li>
+                        <li>Shopping cart with quantity management</li>
                         <li>Local data persistence with SQLite</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mb-3">
                         <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Flutter</span>
                         <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Provider</span>
                         <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">SQLite</span>
+                        <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">Clean Architecture</span>
                     </div>
                     <a href="https://github.com/hamza-flutterdev/magikart-grocery-app" target="_blank"
                         class="inline-block text-blue-500 hover:text-blue-600">
                         <i class="fab fa-github mr-1"></i> View on GitHub
                     </a>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="800">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-cloud-sun-rain text-2xl text-cyan-500 mr-3"></i>
                         <h3 class="text-xl font-bold">🌤️ EZ Horizon Weather App</h3>
@@ -506,19 +560,19 @@
                     <p class="text-gray-700 mb-3">Real-time weather app with advanced features and dynamic animations.
                     </p>
                     <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-3">
-                        <li>Real-time weather data with geolocation</li>
+                        <li>Live weather data with geolocation</li>
                         <li>City search with typeahead suggestions</li>
-                        <li>Dynamic weather-based animations</li>
-                        <li>Detailed weather information display</li>
+                        <li>Weather-based Lottie animations</li>
+                        <li>Detailed hourly and weekly forecasts</li>
                     </ul>
                     <div class="flex flex-wrap gap-2">
                         <span class="bg-cyan-100 text-cyan-800 px-2 py-1 rounded text-xs">Flutter</span>
                         <span class="bg-cyan-100 text-cyan-800 px-2 py-1 rounded text-xs">REST APIs</span>
                         <span class="bg-cyan-100 text-cyan-800 px-2 py-1 rounded text-xs">Lottie</span>
+                        <span class="bg-cyan-100 text-cyan-800 px-2 py-1 rounded text-xs">Geolocation</span>
                     </div>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="900">
                     <div class="flex items-center mb-4">
                         <i class="fab fa-whatsapp text-2xl text-green-500 mr-3"></i>
                         <h3 class="text-xl font-bold">💬 WhatsApp UI Clone</h3>
@@ -526,92 +580,112 @@
                     <p class="text-gray-700 mb-3">Pixel-perfect recreation of WhatsApp's interface with theme
                         persistence.</p>
                     <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-3">
-                        <li>Chat tabs and navigation</li>
-                        <li>Dark/light theme switching</li>
-                        <li>SharedPreferences for persistence</li>
-                        <li>Complex layout design</li>
+                        <li>Chat, status, and calls tabs with navigation</li>
+                        <li>Dark and light theme switching</li>
+                        <li>Theme persistence with SharedPreferences</li>
+                        <li>Complex nested layouts and custom widgets</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mb-3">
                         <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Flutter</span>
                         <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Material Design</span>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">SharedPreferences</span>
                     </div>
                     <a href="https://github.com/hamza-flutterdev/WhatsApp-Clone" target="_blank"
                         class="inline-block text-blue-500 hover:text-blue-600">
                         <i class="fab fa-github mr-1"></i> View on GitHub
                     </a>
                 </div>
-
-                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="bg-white rounded-lg shadow-lg p-6 project-card" data-aos="fade-up" data-aos-delay="1000">
                     <div class="flex items-center mb-4">
                         <i class="fas fa-tools text-2xl text-indigo-500 mr-3"></i>
-                        <h3 class="text-xl font-bold">🔧 Utility Apps Collection</h3>
+                        <h3 class="text-xl font-bold">🔧 Utility Apps</h3>
                     </div>
-                    <p class="text-gray-700 mb-3">Series of utility applications focused on clean UI and state
-                        management.</p>
+                    <p class="text-gray-700 mb-3">Collection of utility applications focused on clean UI and state
+                        management fundamentals.</p>
                     <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 mb-3">
-                        <li><strong>Unit Converter:</strong> Convert various units</li>
-                        <li><strong>Table Generator:</strong> Multiplication tables</li>
-                        <li><strong>Counter App:</strong> Basic state management</li>
+                        <li><strong>Pocket Table:</strong> Multiplication table generator with gradient UI</li>
+                        <li><strong>Unit Converter:</strong> Multi-unit conversion tool</li>
+                        <li><strong>Counter App:</strong> Basic state management practice</li>
                     </ul>
                     <div class="flex flex-wrap gap-2">
                         <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">Flutter</span>
                         <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">Stateful Widgets</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-xs">UI Design</span>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Education & Certifications Section -->
         <section id="education" class="mb-16">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-graduation-cap mr-2"></i> Education & Certifications
             </h2>
             <div class="max-w-4xl mx-auto space-y-6">
                 <div class="bg-white rounded-lg shadow-lg p-6" data-aos="fade-up">
-                    <h3 class="text-xl font-bold text-blue-600 mb-2">Education</h3>
+                    <h3 class="text-xl font-bold text-blue-600 mb-4">🎓 Education</h3>
                     <div class="space-y-4">
-                        <div>
-                            <h4 class="font-bold text-lg">Bachelor's in Data Science (BS-DS)</h4>
-                            <p class="text-gray-600">Virtual University | Ongoing</p>
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h4 class="font-bold text-lg">Bachelor of Science in Data Science (BS-DS)</h4>
+                            <p class="text-gray-600">Virtual University of Pakistan</p>
+                            <p class="text-sm text-gray-500">Ongoing</p>
                         </div>
-                        <div>
+                        <div class="border-l-4 border-blue-500 pl-4">
                             <h4 class="font-bold text-lg">Bachelor of Commerce (B-Com)</h4>
-                            <p class="text-gray-600">Allama Iqbal Open University | 2025</p>
+                            <p class="text-gray-600">Allama Iqbal Open University</p>
+                            <p class="text-sm text-gray-500">Business/Commerce, General • 2022 - 2025</p>
                         </div>
-                        <div>
+                        <div class="border-l-4 border-blue-500 pl-4">
                             <h4 class="font-bold text-lg">Intermediate in Computer Science (ICS)</h4>
-                            <p class="text-gray-600">Federal Board (FBISE) | 2019</p>
+                            <p class="text-gray-600">Federal Board of Intermediate & Secondary Education (FBISE)</p>
+                            <p class="text-sm text-gray-500">Computer Science • 2019</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="bg-white rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-xl font-bold text-blue-600 mb-4">Certifications</h3>
+                    <h3 class="text-xl font-bold text-blue-600 mb-4">📜 Certifications</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                        <div class="flex items-center">
-                            <i class="fas fa-certificate text-blue-500 mr-2"></i>
-                            <span class="text-gray-700">UI/UX Fundamentals (2022)</span>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-500 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-semibold">UI/UX Fundamentals</p>
+                                <p class="text-sm text-gray-600">2022</p>
+                            </div>
                         </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-certificate text-blue-500 mr-2"></i>
-                            <span class="text-gray-700">Video Editing Fundamentals (2022)</span>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-500 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Video Editing Basics</p>
+                                <p class="text-sm text-gray-600">2022</p>
+                            </div>
                         </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-certificate text-blue-500 mr-2"></i>
-                            <span class="text-gray-700">Social Media Management (2022)</span>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-500 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Social Media Management</p>
+                                <p class="text-sm text-gray-600">2022</p>
+                            </div>
                         </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-certificate text-blue-500 mr-2"></i>
-                            <span class="text-gray-700">Graphic Design with Photoshop (2020)</span>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-500 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Intro to Graphic Design with Photoshop</p>
+                                <p class="text-sm text-gray-600">2020</p>
+                            </div>
                         </div>
-                        <div class="flex items-center">
-                            <i class="fas fa-certificate text-blue-500 mr-2"></i>
-                            <span class="text-gray-700">Digital Marketing (2020)</span>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-blue-500 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-semibold">Introduction to Digital Marketing</p>
+                                <p class="text-sm text-gray-600">2020</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Contact Section -->
         <section id="contact" class="mb-12">
             <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">
                 <i class="fas fa-envelope-open-text mr-2"></i> Let's Connect
@@ -619,36 +693,45 @@
             <div class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
                 <div class="text-center space-y-6">
                     <p class="text-gray-700 text-lg mb-6">
-                        I'm open to opportunities where I can contribute to meaningful mobile projects, keep learning,
-                        and continue growing as a Flutter developer.
+                        I'm passionate about building impactful mobile experiences and open to opportunities where I can
+                        contribute to innovative projects, grow my expertise, and deliver real value through technology.
                     </p>
-                    <div class="flex justify-center space-x-8">
+                    <div class="flex justify-center space-x-8 mb-6">
                         <a href="mailto:hamzabutthb553.hb@gmail.com"
                             class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
                             data-aos="zoom-in">
                             <i class="fas fa-envelope text-4xl"></i>
-                            <p class="mt-2 text-sm">Email</p>
+                            <p class="mt-2 text-sm font-semibold">Email</p>
                         </a>
                         <a href="https://linkedin.com/in/hamza-flutterdev" target="_blank"
                             class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
                             data-aos="zoom-in" data-aos-delay="200">
                             <i class="fab fa-linkedin text-4xl"></i>
-                            <p class="mt-2 text-sm">LinkedIn</p>
+                            <p class="mt-2 text-sm font-semibold">LinkedIn</p>
                         </a>
                         <a href="https://github.com/hamza-flutterdev" target="_blank"
                             class="text-blue-500 hover:text-blue-600 transition transform hover:scale-110"
                             data-aos="zoom-in" data-aos-delay="400">
                             <i class="fab fa-github text-4xl"></i>
-                            <p class="mt-2 text-sm">GitHub</p>
+                            <p class="mt-2 text-sm font-semibold">GitHub</p>
                         </a>
                     </div>
-                    <div class="pt-4 border-t mt-6">
-                        <p class="text-gray-600">
-                            <i class="fas fa-phone mr-2"></i> +92 333 8475886
-                        </p>
-                        <p class="text-gray-600 mt-2">
-                            <i class="fas fa-map-marker-alt mr-2"></i> Rawalpindi, Punjab, Pakistan
-                        </p>
+                    <div class="pt-4 border-t">
+                        <div class="space-y-2">
+                            <p class="text-gray-600 flex items-center justify-center">
+                                <i class="fas fa-phone mr-2"></i>
+                                <a href="tel:+923338475886" class="hover:text-blue-600">+92 333 8475886</a>
+                            </p>
+                            <p class="text-gray-600 flex items-center justify-center">
+                                <i class="fas fa-envelope mr-2"></i>
+                                <a href="mailto:hamzabutthb553.hb@gmail.com"
+                                    class="hover:text-blue-600">hamzabutthb553.hb@gmail.com</a>
+                            </p>
+                            <p class="text-gray-600 flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt mr-2"></i>
+                                Rawalpindi, Punjab, Pakistan
+                            </p>
+                        </div>
                     </div>
                     <div class="pt-4">
                         <p class="text-gray-700 text-lg font-semibold">Let's build something amazing together! 🚀</p>
@@ -658,14 +741,18 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-blue-600 text-white py-6">
         <div class="container mx-auto text-center">
             <p class="text-lg mb-2">&copy; 2025 Hamza Shahid. All rights reserved.</p>
-            <p class="text-sm">Junior Flutter Developer | Building the future, one app at a time</p>
+            <p class="text-sm">Junior Flutter Developer @ Teramob Technologies</p>
+            <p class="text-xs mt-2 opacity-80">Building the future, one app at a time 📱</p>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script>
+        // Initialize AOS (Animate On Scroll)
         AOS.init({
             duration: 1000,
             once: true,
@@ -682,6 +769,27 @@
                         behavior: 'smooth',
                         block: 'start'
                     });
+                }
+            });
+        });
+
+        // Add active state to navigation
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.classList.remove('border-b-2', 'border-white');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('border-b-2', 'border-white');
                 }
             });
         });
